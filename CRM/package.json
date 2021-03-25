@@ -1,0 +1,29 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec node_modules/.bin/babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/srishti02/NodeJS.git"
+  },
+  "author": "Srishti Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srishti02/NodeJS/issues"
+  },
+  "homepage": "https://github.com/srishti02/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.16"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
